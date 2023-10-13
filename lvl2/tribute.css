@@ -1,0 +1,55 @@
+body {
+    font-family: Courier, monospace;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+.background-image{
+    background-image:url(./IMAGES/Nepali-rapper-Yama-buddha.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   height:100vh;
+}
+
+header {
+    text-align: center;
+    background-color: #090909;
+    color: white;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+section {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 35px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(61, 38, 38, 0.2);
+}
+
+h2 {
+    color: #333;
+    font-size: 24px;
+}
+
+ul {
+    list-style-type:CIRCLE;
+    margin-left: 10px;
+}
+
+li {
+    margin: 10px 0;
+}
+
+.image {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
