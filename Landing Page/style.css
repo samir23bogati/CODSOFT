@@ -19,13 +19,13 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 99;
+    z-index: 79;
     box-shadow: 2px 2px 8px grey;
 }
 
 .logo {
     font-size: 2em;
-    color: #41CD54;
+    color: #cd4193;
     user-select: none;
 }
 
@@ -38,7 +38,7 @@ header {
 .navigation a {
     position: relative;
     font-size: 1em;
-    color: gray;
+    color: rgb(24, 24, 24);
     text-decoration: none;
     font-weight: 500;
     margin-left: 40px;
@@ -46,7 +46,7 @@ header {
 }
 
 .navigation a:hover {
-    color: #41CD54;
+    color: #cd419c;
 }
 
 .navigation a::after {
@@ -69,12 +69,12 @@ header {
 .navigation .btnBuy-popup {
     width: 130px;
     height: 40px;
-    background: #41CD54;
+    background: #cd41b8;
     border: none;
     border-radius: 12px;
     cursor: pointer;
     font-size: 1em;
-    color: white;
+    color: rgb(233, 227, 227);
     font-weight: 500;
     margin-left: 40px;
     box-shadow: 2px 2px 8px #41CD54;
@@ -119,7 +119,7 @@ header {
     padding: 10px 20px;
     width: 130px;
     height: 40px;
-    background: #41CD54;
+    background: #cd4193;
     border: none;
     border-radius: 1px;
     cursor: pointer;
